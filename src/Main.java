@@ -10,5 +10,5 @@ public class Main {
     }
     public static void main(String[] args) {
         /* System.out.println(reverseString("Tak")); */
-    }   System.out.println(stringFromArray(String["dupa Romana"] str))
+    }   System.out.println(stringFromArray(String[] str {"kunolis", "dupa" , "romana"));
 }
