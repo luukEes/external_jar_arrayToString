@@ -4,9 +4,11 @@ public class Main {
         return StringUtils.reverse(str);
     }
     public static String stringFromArray(String[] str) {
-        return Arrays.toString(strArray);
+         String joinedString = Arrays.toString(strArray);
+         StringUtils.deleteWhitespaces(joinedString);
+        return joinedString;
     }
     public static void main(String[] args) {
         /* System.out.println(reverseString("Tak")); */
-    }
+    }   System.out.println(stringFromArray(String["dupa Romana"] str))
 }
